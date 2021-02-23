@@ -1,6 +1,8 @@
 <?php
-    class Main {
+    class Main  extends Controller{
         function __construct(){
+            parent::__construct();
+            $this->view->render('main/index');
             echo '<h1>Constructor Main</h1>';
         }
 

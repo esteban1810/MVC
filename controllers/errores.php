@@ -1,6 +1,9 @@
 <?php
-    class Errores {
+    class Errores extends Controller{
         function __construct(){
+            parent::__construct();
+            $this->view->mensaje = 'Error al cargar el recurso';
+            $this->view->render('errores/index');
             echo '<h1>No existe la direccion</h1>';
         }
     }
