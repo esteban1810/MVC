@@ -1,5 +1,5 @@
 <?php require 'views/header.php';?>
     <main class="content">
-        <h1>Seccion De Ayuda</h1>
+        <h1>Agregar Un Nuevo Registro</h1>
     </main>
 <?php require 'views/footer.php';?>
