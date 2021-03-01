@@ -8,6 +8,7 @@
 
                 require 'controllers/main.php';
                 $main = new Main();
+                $main->loadModel('main');
 
             } else {
                 
@@ -19,6 +20,7 @@
                 if(file_exists($archivo)){
                     require_once $archivo;
                     $controller = new $url[0];
+                    $controller->loadModel($url[0]);
     
                     if(isset($url[1])){
                         $controller->{$url[1]}();
