@@ -5,7 +5,7 @@ define('URL','http://localhost/curso/Proyecto/MVC/');
 define('HOST','localhost'); 
 define('USER','root');
 define('PASSWORD','');
-define('DB','');
-define('CHARSET','uft8mb4');
+define('DB','mvc');
+define('CHARSET','utf8mb4');
 
 ?>
